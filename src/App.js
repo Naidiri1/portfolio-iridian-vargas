@@ -9,9 +9,8 @@ import Footer from "./components/Footer"
 
 
 const App = () => {
-  
   return (
-    <>
+  <>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +19,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
-    </>
+      </>
   );
 };
 
