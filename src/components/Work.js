@@ -13,7 +13,7 @@ import weatherdashboard from "./images/weatherApp.png";
 import commandLine from "./images/command-line.jpg"
 import taekwondo from "./images/taekwondo.jpg"
 
-const Portfolio = () => {
+const Work = () => {
   const projects = [
     {
       name: "The Junk Store",
@@ -155,4 +155,4 @@ const Portfolio = () => {
     </div>
   );
 };
-export default Portfolio;
+export default Work;
