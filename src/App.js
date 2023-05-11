@@ -9,6 +9,7 @@ import Footer from "./components/Footer"
 
 
 const App = () => {
+  
   return (
     <>
       <NavBar />
@@ -19,7 +20,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
-      </>
+    </>
   );
 };
 
