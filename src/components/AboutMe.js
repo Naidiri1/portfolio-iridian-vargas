@@ -9,13 +9,13 @@ const About = () => {
         <Col md={5}>
           <img
             src={IridianImg}
-            alt="img"
+            alt="img of Iridian"
             className="img-fluid my-image"
             style={{
               borderRadius: "10%",
               height: 550,
               width: 450,
-              marginBottom: 45,
+              objectFit: "cover",
             }}
           />
         </Col>
