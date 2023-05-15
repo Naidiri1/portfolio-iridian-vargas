@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-iridian-vargas/static/css/main.964e379f.css",
-    "main.js": "/portfolio-iridian-vargas/static/js/main.a4811e2c.js",
+    "main.js": "/portfolio-iridian-vargas/static/js/main.f222edb8.js",
     "static/js/787.692515e7.chunk.js": "/portfolio-iridian-vargas/static/js/787.692515e7.chunk.js",
     "static/media/TaeKwon-Do.png": "/portfolio-iridian-vargas/static/media/TaeKwon-Do.1f3390f371ebb0c72229.png",
     "static/media/logo.png": "/portfolio-iridian-vargas/static/media/logo.2a314f7ec194ecf84d29.png",
@@ -20,11 +20,11 @@
     "static/media/taekwondo.jpg": "/portfolio-iridian-vargas/static/media/taekwondo.eb8653eddfdc9d2521a5.jpg",
     "index.html": "/portfolio-iridian-vargas/index.html",
     "main.964e379f.css.map": "/portfolio-iridian-vargas/static/css/main.964e379f.css.map",
-    "main.a4811e2c.js.map": "/portfolio-iridian-vargas/static/js/main.a4811e2c.js.map",
+    "main.f222edb8.js.map": "/portfolio-iridian-vargas/static/js/main.f222edb8.js.map",
     "787.692515e7.chunk.js.map": "/portfolio-iridian-vargas/static/js/787.692515e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964e379f.css",
-    "static/js/main.a4811e2c.js"
+    "static/js/main.f222edb8.js"
   ]
 }
