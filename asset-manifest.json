@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-iridian-vargas/static/css/main.964e379f.css",
-    "main.js": "/portfolio-iridian-vargas/static/js/main.f222edb8.js",
+    "main.js": "/portfolio-iridian-vargas/static/js/main.33fad175.js",
     "static/js/787.692515e7.chunk.js": "/portfolio-iridian-vargas/static/js/787.692515e7.chunk.js",
     "static/media/TaeKwon-Do.png": "/portfolio-iridian-vargas/static/media/TaeKwon-Do.1f3390f371ebb0c72229.png",
     "static/media/logo.png": "/portfolio-iridian-vargas/static/media/logo.2a314f7ec194ecf84d29.png",
     "static/media/movie-app.png": "/portfolio-iridian-vargas/static/media/movie-app.6b229c8e6c08f05e2ed7.png",
     "static/media/sound-shelf.png": "/portfolio-iridian-vargas/static/media/sound-shelf.2dd22b2c1e234d2058a3.png",
     "static/media/command-line.jpg": "/portfolio-iridian-vargas/static/media/command-line.a6a9443b593a2d1d8617.jpg",
-    "static/media/home.jpg": "/portfolio-iridian-vargas/static/media/home.f95f62599b21644c6a34.jpg",
     "static/media/ratingApp.png": "/portfolio-iridian-vargas/static/media/ratingApp.27c22b5b71a7e218960f.png",
     "static/media/junk-store.jpg": "/portfolio-iridian-vargas/static/media/junk-store.8ef416c889b887d847a9.jpg",
     "static/media/weather-dashboard.png": "/portfolio-iridian-vargas/static/media/weather-dashboard.1151a3a70092f5f71187.png",
@@ -20,11 +19,11 @@
     "static/media/taekwondo.jpg": "/portfolio-iridian-vargas/static/media/taekwondo.eb8653eddfdc9d2521a5.jpg",
     "index.html": "/portfolio-iridian-vargas/index.html",
     "main.964e379f.css.map": "/portfolio-iridian-vargas/static/css/main.964e379f.css.map",
-    "main.f222edb8.js.map": "/portfolio-iridian-vargas/static/js/main.f222edb8.js.map",
+    "main.33fad175.js.map": "/portfolio-iridian-vargas/static/js/main.33fad175.js.map",
     "787.692515e7.chunk.js.map": "/portfolio-iridian-vargas/static/js/787.692515e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964e379f.css",
-    "static/js/main.f222edb8.js"
+    "static/js/main.33fad175.js"
   ]
 }
