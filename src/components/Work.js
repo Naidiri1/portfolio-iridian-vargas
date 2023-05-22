@@ -4,14 +4,14 @@ import PortfolioTemplate from "./PortfolioTemplate";
 import projectTwo from "./images/sound-shelf.png";
 import projectThree from "./images/junk-store.jpg";
 import weatherApp from "./images/weather-dashboard.png";
-import textEditor from "./images/text-editor.png"
+import textEditor from "./images/text-editor.png";
 import TaekwondoWs from "./images/TaeKwon-Do.png";
 import movieImg from "./images/movie-app.png";
 import ratingApp from "./images/ratingApp.png";
 import storeApp from "./images/storeApp.png";
 import weatherdashboard from "./images/weatherApp.png";
-import commandLine from "./images/command-line.jpg"
-import taekwondo from "./images/taekwondo.jpg"
+import commandLine from "./images/command-line.jpg";
+import taekwondo from "./images/taekwondo.jpg";
 
 const Work = () => {
   const projects = [
@@ -22,7 +22,8 @@ const Work = () => {
       description:
         "This is a MERN stack application, a one-stop shop for all your online shopping needs. It is a full stack application that allows users to create an account, login, view, add products to their cart, and checkout.",
       modalTitle: "MERN Stack App",
-      modalContent: "This project  is built with MERN stack (MongoDB, Express,js, React.js and Node.js), we used Mongoose that provides a straightforward way to interact with MongoDB databases to manage our data of product, users, orders and categories for our products and Express.js was used to to define routes for handling different HTTP requests (such as GET, POST, PUT, DELETE) and their corresponding actions. And for the front end we used Apollo client to create requests and interaction with the user. finally we used Stripe to handle the payment methods.",
+      modalContent:
+        "This project  is built with MERN stack (MongoDB, Express,js, React.js and Node.js), we used Mongoose that provides a straightforward way to interact with MongoDB databases to manage our data of product, users, orders and categories for our products and Express.js was used to to define routes for handling different HTTP requests (such as GET, POST, PUT, DELETE) and their corresponding actions. And for the front end we used Apollo client to create requests and interaction with the user. finally we used Stripe to handle the payment methods.",
       modalRepolink: "https://github.com/trudman/online-store",
       modalFeaturesApp: [
         "Node.js",
@@ -34,7 +35,7 @@ const Work = () => {
         "Mongoose",
         "Express",
         "React",
-      "  MongoDB"
+        "  MongoDB",
       ],
       modalImgApp: storeApp,
     },
@@ -48,11 +49,7 @@ const Work = () => {
       modalContent:
         "This project was built by a team work, It was my first project to work in a collaborative way, and we decided to work on movies since we all loved the idea, we use OMDb Api to get relative information about an specific movie the user wanted to know about and then render its trailer with Youtube Api. The user could save a history of movies searched using local storage.",
       modalRepolink: "https://github.com/Naidiri1/Movie-Time",
-      modalFeaturesApp: [
-        "OMDb API",
-         "Youtube Api", 
-         "Local Storage"
-        ],
+      modalFeaturesApp: ["OMDb API", "Youtube Api", "Local Storage"],
       modalImgApp: movieImg,
     },
     {
@@ -86,14 +83,11 @@ const Work = () => {
       imgSrc: weatherApp,
       description:
         "The main purpose of this project is to provide weather information for any city in the USA, displaying the current day and the next following days' weather conditions.",
-        modalTitle: "Weather Dashboard",
-        modalContent:
+      modalTitle: "Weather Dashboard",
+      modalContent:
         "This project is utilizing the OpenWeatherMap API to retrieve weather data from the current day and the next 5 days. This website is deployed in github pages using HTML and CSS.",
       modalRepolink: "https://github.com/Naidiri1/weather-dashboard",
-      modalFeaturesApp: [
-        "OpenWeatherMap",
-        "local Storage"
-      ],
+      modalFeaturesApp: ["OpenWeatherMap", "local Storage"],
       modalImgApp: weatherdashboard,
     },
     {
@@ -101,7 +95,7 @@ const Work = () => {
       link: "https://calm-dawn-74665.herokuapp.com",
       imgSrc: textEditor,
       description:
-      "This project is built to create notes or code snippets with or without an internet connection as a native application, working with internet connection or offline, so the user can make notes and still be saved or being able to delete them based on his needs.",
+        "This project is built to create notes or code snippets with or without an internet connection as a native application, working with internet connection or offline, so the user can make notes and still be saved or being able to delete them based on his needs.",
       modalContent:
         "To build this text editor that runs in the browser, The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.To build this text editor, the user will start with an existing application and implement methods for getting and storing data to an IndexedDB database. The user will use a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.",
       modalRepolink: "https://github.com/Naidiri1/progressive-web-applications",
@@ -112,9 +106,9 @@ const Work = () => {
         "webpack-pwa-manifest",
         "style-loader",
         "html-webpack-plugin",
-        "http-server"
+        "http-server",
       ],
-      modalImgApp: commandLine
+      modalImgApp: commandLine,
     },
     {
       name: "TaeKwon-Do Website",
@@ -125,11 +119,8 @@ const Work = () => {
       modalContent:
         "This project is being developed using HTML, CSS, and JavaScript",
       modalRepolink: "https://github.com/Naidiri1/taekwondo",
-      modalFeaturesApp: [
-        "React",
-        "Google Reviews Api"
-      ],
-      modalImgApp: taekwondo
+      modalFeaturesApp: ["React", "Google Reviews Api"],
+      modalImgApp: taekwondo,
     },
   ];
 
@@ -150,7 +141,7 @@ const Work = () => {
     ));
   };
   return (
-    <div className="mt-5 d-flex flex-wrap justify-content-center align-items-center">
+    <div className="mt-5 d-flex flex-wrap justify-content-center ">
       {renderProjects()}
     </div>
   );

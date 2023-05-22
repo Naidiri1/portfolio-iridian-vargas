@@ -32,7 +32,7 @@ These 4 sections at the top help people to know about me , my work experience wi
 
  ## Description
 **Evidence of my portfolio with images**
-![Top screenshot of my portfolio.](./src/components/images/homepage.png)
+![Top screenshot of my portfolio.](./src/components/images/home-page.png)
 ![Top screenshot of my portfolio.](./src/components/images/aboutme.png)
 
 -link to deployed application: 

@@ -10,7 +10,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
 const navStyling = {
-  color: "#2121bf",
+  color: "#0d6efd",
   marginLeft: "80px",
 };
 
@@ -55,9 +55,6 @@ const NavBar = () => {
             </Nav.Link>
             <Nav.Link as={Link} to="/about-me" style={navStyling}>
               About Me
-            </Nav.Link>
-            <Nav.Link as={Link} to="/work" style={navStyling}>
-              Work
             </Nav.Link>
             <Nav.Link as={Link} to="/contact" style={navStyling}>
               Contact Me
