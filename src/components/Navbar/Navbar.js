@@ -28,9 +28,9 @@ const NavBar = () => {
     <Navbar
       collapseOnSelect
       expand="lg"
-      style={{ fontSize: 30, justifyContent: "right", alignContent: "center" }}
+      style={{ fontSize: 30, alignItems: "center"}}
     >
-      <Container>
+      <Container  style={{ fontSize: 30}}>
         <Navbar.Brand as={Link} to="/" >
           <div
             className="logo-container"

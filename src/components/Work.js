@@ -96,7 +96,8 @@ const Work = () => {
       imgSrc: textEditor,
       description:
         "This project is built to create notes or code snippets with or without an internet connection as a native application, working with internet connection or offline, so the user can make notes and still be saved or being able to delete them based on his needs.",
-      modalContent:
+      modalTitle:"Text Editor",
+        modalContent:
         "To build this text editor that runs in the browser, The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.To build this text editor, the user will start with an existing application and implement methods for getting and storing data to an IndexedDB database. The user will use a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.",
       modalRepolink: "https://github.com/Naidiri1/progressive-web-applications",
       modalFeaturesApp: [
@@ -116,7 +117,8 @@ const Work = () => {
       imgSrc: TaekwondoWs,
       description:
         "This website is a motivation to deploy my first website from scratch that someone can use for their real business. Currently, it is in process.",
-      modalContent:
+      modalTitle:"TaeKwon-Do",
+        modalContent:
         "This project is being developed using HTML, CSS, and JavaScript",
       modalRepolink: "https://github.com/Naidiri1/taekwondo",
       modalFeaturesApp: ["React", "Google Reviews Api"],
