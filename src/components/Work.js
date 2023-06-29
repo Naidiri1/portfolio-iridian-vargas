@@ -16,6 +16,28 @@ import taekwondo from "./images/taekwondo.jpg";
 const Work = () => {
   const projects = [
     {
+      name: "TaeKwon-Do Website",
+      link: "https://naidiri1.github.io/taekwondo-website/",
+      imgSrc: TaekwondoWs,
+      description:
+        "This website is a static website for a bussines of Taekwon-Do. Currently, it is in process missing the content information  with a structure finished ready to add the information and being deployed.",
+      modalTitle: "TaeKwon-Do Website",
+      modalContent:
+        "This project is built in a team colaborations of 2 web developers eager to gain more experience as junior web developers, This  business website is under development missing only the content information ready to be deployed anytime. We faced different challenges like the Goggle reviews Api and decided to go for a widget of reviews for a low cost per year, and also used an embeded Html google maps  in order to user get access to the directions and location of the business",
+      modalRepolink: "https://github.com/Naidiri1/taekwondo-website",
+      modalFeaturesApp: [
+        "React",
+        "Widget for Google Reviews",
+        "embeded Html Google Maps",
+        "Email.js",
+        "Bootstrap",
+        "CSS",
+        "HTML5",
+        "JavaScript",
+      ],
+      modalImgApp: taekwondo,
+    },
+    {
       name: "The Junk Store",
       link: "https://quiet-depths-44401.herokuapp.com",
       imgSrc: projectThree,
@@ -96,8 +118,8 @@ const Work = () => {
       imgSrc: textEditor,
       description:
         "This project is built to create notes or code snippets with or without an internet connection as a native application, working with internet connection or offline, so the user can make notes and still be saved or being able to delete them based on his needs.",
-      modalTitle:"(PWA) Text Editor",
-        modalContent:
+      modalTitle: "(PWA) Text Editor",
+      modalContent:
         "To build this text editor that runs in the browser, The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.To build this text editor, the user will start with an existing application and implement methods for getting and storing data to an IndexedDB database. The user will use a package called idb, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.",
       modalRepolink: "https://github.com/Naidiri1/progressive-web-applications",
       modalFeaturesApp: [
@@ -110,19 +132,6 @@ const Work = () => {
         "http-server",
       ],
       modalImgApp: commandLine,
-    },
-    {
-      name: "TaeKwon-Do Website",
-      link: "#",
-      imgSrc: TaekwondoWs,
-      description:
-        "This website is a motivation to deploy my first website from scratch that someone can use for their real business. Currently, it is in process.",
-      modalTitle:"TaeKwon-Do Website",
-        modalContent:
-        "This project is being developed using HTML, CSS, and JavaScript",
-      modalRepolink: "https://github.com/Naidiri1/taekwondo",
-      modalFeaturesApp: ["React", "Google Reviews Api"],
-      modalImgApp: taekwondo,
     },
   ];
 
